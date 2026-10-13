@@ -3,7 +3,7 @@ Solves a standard sudoku in python, using backtracking.
 
 ## How to use:
 - Insert the sudoku in the file `enunciado.txt`. Insert a `0` to indicate empty squares.
-- Run with $ python main.py
+- Run with $ python src/main.py
 
 
 ## TODO:

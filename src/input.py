@@ -1,4 +1,4 @@
-def leer(nom_fich, matriz):
+def readInput(nom_fich, matriz):
 
     f = open(nom_fich, "r")
 
@@ -18,6 +18,5 @@ def leer(nom_fich, matriz):
     f.close()
 
 def pprint(matriz):
-
     for list in matriz:
         print(list)
