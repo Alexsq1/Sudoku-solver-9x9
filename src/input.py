@@ -1,4 +1,8 @@
-def readInput(nom_fich, matriz):
+def readInput(nom_fich, matrix):
+    """
+    Reads a file in a sudoku format
+    """
+
 
     f = open(nom_fich, "r")
 
@@ -12,11 +16,14 @@ def readInput(nom_fich, matriz):
                 list_buffer.append(int(car))
 
         if len(list_buffer) > 0:
-            matriz.append(list_buffer)
+            matrix.append(list_buffer)
 
 
     f.close()
 
-def pprint(matriz):
-    for list in matriz:
+def pprint(matrix):
+    """
+    Prints a sudoku
+    """
+    for list in matrix:
         print(list)
